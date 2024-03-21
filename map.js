@@ -1,4 +1,7 @@
-const cars = ["Saab", "Volvo", "BMW"];
+const bike = ["R1", "R2", "R3"];
 
-const newCar = cars.map((element) => console.log(element));
+const newCar = bike.map((element) => {
+  return `${element}_nice`;
+  //   return element+"_nice";
+});
 console.log(newCar);
